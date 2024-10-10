@@ -1,0 +1,4 @@
+*.o
+fast-ids
+build/*
+!build/.keep
