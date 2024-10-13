@@ -31,10 +31,8 @@ int run(pcap_if_t *network_device, pcap_addr_t *device_addr) {
     }
 
     printf("Listening on device %s on address %s\n", network_device->name, ip);
-
-    pcap_loop(handle, 0, packet_handler, NULL);
-
     free(ip);
+    pcap_loop(handle, 0, packet_handler, NULL);
     return 0;
 }
 
