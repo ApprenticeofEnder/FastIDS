@@ -3,6 +3,7 @@
 void packet_handler(u_char *args, const struct pcap_pkthdr *header,
                     const u_char *packet) {
     print_packet_info(packet, header);
+    // Listener for various rules, probably add an extra parameter
     return;
 }
 void print_packet_info(const u_char *packet,
