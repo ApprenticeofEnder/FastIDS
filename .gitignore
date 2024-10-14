@@ -2,3 +2,4 @@
 fast-ids
 build/*
 !build/.keep
+__pycache__
