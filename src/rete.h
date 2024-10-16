@@ -1,4 +1,4 @@
-#ifndef DETECTION
-#define DETECTION
+#ifndef RETE
+#define RETE
 
 #endif
