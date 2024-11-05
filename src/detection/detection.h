@@ -43,7 +43,7 @@ typedef struct ip_match {
 
 typedef struct port_match {
     int port;
-    rule **rules;
+    struct rule **rules;
 } port_match_t;
 
 typedef struct rule {
